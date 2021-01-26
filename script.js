@@ -80,20 +80,9 @@ $(document).ready(function() {
                 '-webkit-transform': 'translate(' + translateWidth + 'px, 0)',
                 '-ms-transform': 'translate(' + translateWidth + 'px, 0)',
         });
-    }
+    };
 
-    // swipe
-    $(".slide").swipe( {
-        swipeLeft:leftSwipe,
-        swipeRight:rightSwipe,
-        threshold:0
-    });
-    function leftSwipe(event){
-            alert('swipe left');
-    };
-    function rightSwipe(event){
-            alert('swipe right');
-    };
+  
     
     
 });
