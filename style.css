@@ -1,24 +1,24 @@
 @font-face {
-    font-family: Roboto; /* Имя шрифта */
-    src:url("Roboto-Regular.ttf"); /* Путь к файлу со шрифтом */
+    font-family: Roboto; 
+    src:url("Roboto-Regular.ttf");
     font-weight: 400;
 }
 @font-face {
-    font-family: Roboto; /* Имя шрифта */
-    src:url("Roboto-Medium.ttf"); /* Путь к файлу со шрифтом */
+    font-family: Roboto;
+    src:url("Roboto-Medium.ttf");
     font-weight: 500;
 }
 @font-face {
-    font-family: Roboto; /* Имя шрифта */
-    src:url("/Roboto-Bold.ttf"); /* Путь к файлу со шрифтом */
+    font-family: Roboto; 
+    src:url("Roboto-Bold.ttf"); 
     font-weight: 700;
 }
 @font-face {
-    font-family: TenorSansRegular; /* Имя шрифта */
-    src:url("TenorSans-Regular.ttf"); /* Путь к файлу со шрифтом */
+    font-family: TenorSansRegular;
+    src:url("TenorSans-Regular.ttf");
 }
 
-/* Сброс настроек браузеров */
+/* reset */
 *, *::before, *::after {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -44,7 +44,6 @@ body {
   font-weight: 400;
   color: #212529;
 }
-/* this fixes the problem 100vw, removing the horizontal scrollbar */
 html, body {
     overflow-x:hidden;
 }
@@ -402,7 +401,7 @@ h1 span{
     display: flex;
     justify-content: center;
 }
-/* форма обратной связи */
+/* feedback form */
 :-moz-placeholder {
     color: #9c9a9a;
 }
@@ -908,7 +907,7 @@ font-size: 12px;
     .header-bd {
         display: flex;
         background-image: none; 
-        background-image: url("../img/pallet.jpg");
+        background-image: url("pallet.jpg");
     }
     .header-bd h1 {
         font-size: 23px;
