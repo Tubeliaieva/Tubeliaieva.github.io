@@ -907,7 +907,7 @@ font-size: 12px;
     .header-bd {
         display: flex;
         background-image: none; 
-        background-image: url("pallet.jpg");
+        background: url("pallet.jpg") no-repeat;
     }
     .header-bd h1 {
         font-size: 23px;
