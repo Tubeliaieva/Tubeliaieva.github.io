@@ -39,7 +39,7 @@ $(document).ready(function(){
 // reviwes
 $(document).ready(function() {
 
-    let pics =["https://hsto.org/files/ec5/592/f1e/ec5592f1e814401eb38305682a8e88d4.jpg", "https://hsto.org/files/ec5/592/f1e/ec5592f1e814401eb38305682a8e88d4.jpg", "https://hsto.org/files/ec5/592/f1e/ec5592f1e814401eb38305682a8e88d4.jpg", "https://hsto.org/files/ec5/592/f1e/ec5592f1e814401eb38305682a8e88d4.jpg"];
+    let pics =["https://hsto.org/files/ec5/592/f1e/ec5592f1e814401eb38305682a8e88d4.jpg", "https://hsto.org/files/ec5/592/f1e/ec5592f1e814401eb38305682a8e88d4.jpg", "https://hsto.org/files/ec5/592/f1e/ec5592f1e814401eb38305682a8e88d4.jpg", "https://hsto.org/files/ec5/592/f1e/ec5592f1e814401eb38305682a8e88d4.jpg", "https://hsto.org/files/ec5/592/f1e/ec5592f1e814401eb38305682a8e88d4.jpg"];
     let slideNow = 0;
     let navBtnId = 0;
     let translateWidth = 0;
