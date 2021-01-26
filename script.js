@@ -36,14 +36,14 @@ $(document).ready(function(){
     });
 
 });
-// отзывы
+// reviwes
 $(document).ready(function() {
 
-    let pics =[""https://hsto.org/files/ec5/592/f1e/ec5592f1e814401eb38305682a8e88d4.jpg", ""https://hsto.org/files/ec5/592/f1e/ec5592f1e814401eb38305682a8e88d4.jpg", "https://hsto.org/files/ec5/592/f1e/ec5592f1e814401eb38305682a8e88d4.jpg", "https://hsto.org/files/ec5/592/f1e/ec5592f1e814401eb38305682a8e88d4.jpg"];
+    let pics =["https://hsto.org/files/ec5/592/f1e/ec5592f1e814401eb38305682a8e88d4.jpg", "https://hsto.org/files/ec5/592/f1e/ec5592f1e814401eb38305682a8e88d4.jpg", "https://hsto.org/files/ec5/592/f1e/ec5592f1e814401eb38305682a8e88d4.jpg", "https://hsto.org/files/ec5/592/f1e/ec5592f1e814401eb38305682a8e88d4.jpg"];
     let slideNow = 0;
     let navBtnId = 0;
     let translateWidth = 0;
-//    для правой кнопки
+//    right arrow
     $('#next-btn').click(function(a) {
         a.preventDefault();
         slideNow=slideNow+1;
@@ -52,7 +52,7 @@ $(document).ready(function() {
         }
         slide(slideNow);   
     });
-//    для левой кнопки
+//    left arrow
     $('#prev-btn').click(function(a) {
         a.preventDefault();
         slideNow=slideNow-1;
@@ -61,7 +61,7 @@ $(document).ready(function() {
         }
         slide(slideNow);
     });
-//    для кружков
+//    circles
     $('.slide-nav-btn').click(function () {
         $('.slide-nav-btn').removeClass('act');
         $(this).addClass('act');
